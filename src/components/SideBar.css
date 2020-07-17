@@ -1,0 +1,67 @@
+
+.side-bar {
+    position: relative;
+    grid-area: sideBar;
+    padding: 2em .5em;
+    background-color: #ffffff;
+    min-height: calc(100vh - 70px);
+}
+
+.side-bar ul {
+    list-style: none;
+    margin: 0 auto;
+    color: #b66dff;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.side-item {
+    position: relative;
+    display: flex;
+    padding: 1.3rem 0;
+    cursor: pointer !important;
+}
+
+.side-item:link, .side-item:visited {
+    padding-left: 1.2em;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #3e4b5b;
+    text-transform: capitalize;
+}
+
+.active {
+    font-weight: 600;
+    color: #a25bfe;
+}
+
+.side-item:hover {
+    text-decoration: underline;
+}
+
+.side-icon {
+    position: absolute;
+    right: 1.2em;
+    font-size: 16px;
+    color: #3e4b5b;
+}
+
+.new-product-btn {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20vh;
+    left: 0;
+    right: 0;
+    width: 60%;
+    color: #fff;
+    padding: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s;
+    background: linear-gradient(to right, #da8cff, #9a55ff);
+}
+
+.new-product-btn:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,81 @@
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.stat-item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #e8e8e8;
+    width: 342px;
+    height: 219px;
+    
+    margin: .5em;
+    border-radius: .4em;
+    background-color: #fff;
+}
+
+.stat-item.orange {
+    background: linear-gradient(to right, #ffbf96, #fe7096) !important;
+}
+
+.stat-item.blue {
+    background: linear-gradient(to right, #90caf9, #047edf 99%) !important;
+}
+
+.stat-item.green {
+    background: linear-gradient(to right, #84d9d2, #07cdae) !important;
+}
+
+.card-body {
+    padding: 2.5rem 2.5rem;
+}
+
+.stat-text {
+    text-align: center;
+    justify-self: flex-start;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.stat-text p {
+    font-size: 33px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.stat-text span {
+    font-size: 20px;
+}
+
+.stat-icon {
+    position: absolute;
+    right: 1.5em;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.card-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.increase-by {
+    position: absolute;
+    bottom: 2.5em;
+    left: 2.5em;
+    color: #fff;
+}

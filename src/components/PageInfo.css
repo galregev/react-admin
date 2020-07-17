@@ -1,0 +1,24 @@
+
+.page-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 93%;
+    margin: 0 auto;
+}
+
+.page-i-icon {
+    background-color: yellowgreen;
+    border-radius: 8%;
+    font-size: 14px;
+    padding: 1em;
+    color: #fff;
+    box-shadow: 0px 3px 8.3px 0.7px rgba(163, 93, 255, 0.35);
+    background: linear-gradient(to right, #da8cff, #9a55ff) !important;
+}
+
+.page-info p {
+    padding: .6em 1em;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
