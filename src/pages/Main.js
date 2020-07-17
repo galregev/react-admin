@@ -2,6 +2,7 @@ import React from 'react';
 import '../pages/Main.css';
 import TopStats from '../components/FourStats/TopStats';
 import PageInfo from '../components/PageInfo';
+import Charts from '../components/Charts/Charts';
 
 export default function Main() {
     return (
@@ -9,6 +10,7 @@ export default function Main() {
             
             <PageInfo pageName="Dashboard" />
             <TopStats />
+            <Charts />
 
         </div>
     )

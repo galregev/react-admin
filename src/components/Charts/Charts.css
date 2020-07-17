@@ -1,0 +1,29 @@
+
+.charts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    width: 94%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.chart-item {
+    border-radius: .3125rem;
+}
+
+.big-chart {
+    align-items: flex-start;
+    width: 57%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.small-chart {
+    align-items: flex-end;
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+}
+
