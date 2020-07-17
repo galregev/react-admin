@@ -1,0 +1,6 @@
+
+.main-container {
+    display: grid;
+    grid-area: Main;
+    background-color: #f2edf3;
+}

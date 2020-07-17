@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../components/Header.css'
 import Avater from '../assets/img/avater.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 
 function Logo({store}) {
     return (
@@ -28,10 +29,10 @@ function AdminDetails() {
     return (
         <div className="admin-details" onClick={() => setState(!state)}>
             <div className={state === true ? 'drop-down-open' : 'drop-down-closed'}>
-                <a href="/" className="dropdown-item">
+                <Link to="/activity" className="dropdown-item">
                     <FontAwesomeIcon style={{marginRight: '.7em', color: 'green'}}  icon="sync-alt" />
                     Activity log
-                </a>
+                </Link>
                 <a href="/" className="dropdown-item">
                     <FontAwesomeIcon style={{marginRight: '.7em', color: 'red'}} icon="power-off" />
                     Logout
